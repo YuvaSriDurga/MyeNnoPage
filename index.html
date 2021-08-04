@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>UI-Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="eNnocss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="fullpage">
+        <nav class="navbar navbar-expand-lg justify-content-between" id="header">
+            <a class="navar-brand eNno" style="color: white; margin-left: 100px;" href="#">
+                <h3>eNno</h3>
+            </a>
+            <button style="background-color: white;" class="navbar-toggler" data-toggle="collapse" data-target="#toggle"
+                aria-expanded="false" aria-controls="toggle">
+                <i style="color: rgb(27,214,214);" class="fa fa-bars"></i>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="toggle">
+                <ul class="navar-nav ml-auto">
+                    <li class="nav-item active headerLinks">
+                        <a class="nav-link anchor" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item headerLinks">
+                        <a class="nav-link anchor" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item headerLinks">
+                        <a class="nav-link anchor" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item headerLinks">
+                        <a class="nav-link anchor" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item headerLinks">
+                        <a class="nav-link anchor" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container" id="section">
+
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="image img-responsive" src="photo1.jpg" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="image img-responsive" src="photo2.jpg" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="image img-responsive" src="photo3.jpg" alt="image">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+                <ol class="carousel-indicators" id="indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ol>
+
+
+            </div>
+            <div class="text-center pt-3">
+                <h3 style="margin-top:25px;">Multi Purpose Theme</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Cras suscipit arcu<br>
+                    vestiulum volutpat libero sollicitudin vitae Curaitur ac aliquam<br>
+                    lorem sit amet scelerisque justo</p>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 text-center" id="rows">
+                    <h3>Responsive</h3><br>
+                    <i class="fa fa-heart-o" style="font-size: 32px; color:rgb(27,214,214) ;"></i> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing<br>elit Cras suscipit arcu libero</p><br>
+                    <button type="button" class="btn btn-light">Read more</button><br>
+                </div>
+                <div class="col-md-4 text-center" id="rows">
+                    <h3>Multi Purpose</h3><br>
+                    <i class="fa fa-desktop" style="font-size: 32px; color:rgb(27,214,214) ;"></i><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing<br>elit Cras suscipit arcu libero</p><br>
+                    <button type="button" class="btn btn-light">Read more</button><br>
+                </div>
+                <div class="col-md-4 text-center" id="rows">
+                    <h3>Easy Customize</h3><br>
+                    <i class="fa fa-location-arrow" style="font-size: 32px; color:rgb(27,214,214) ;"></i><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing<br>elit Cras suscipit arcu libero</p><br>
+                    <button type="button" class="btn btn-light">Read more</button><br>
+                </div>
+                <br><br>
+                <div class="col-md-4 text-center" id="rows">
+                    <h3 style="text-align: center; color:rgb(27,214,214) ;">eNno</h3>
+                    <br><br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing<br>
+                        elit Cras suscipit arcu libero vertibulum volupat<br>
+                        liero solicitudin vitae Curabitur ac aliqum<br>
+                        consectetur adipiscing elit Cras suscipit arcu liero
+                    </p>
+                </div>
+                <div class="col-md-4" id="last" style="text-align: justify;">
+                    <h3>Latest Posts</h3><br>
+                    <p>This is awesome post title</p>
+                    <hr>
+                    <p>Awesome features are awesome</p>
+                    <hr>
+                    <p>Create your own website</p>
+                    <hr>
+                    <p>wow this is fourth post title</p>
+                </div>
+                <div class="col-md-4" id="last" style="text-align: justify;">
+                    <h3>Stay in touch</h3><br>
+                    <p><i class="fa fa-envelope" style="font-size: 26px; color: black;"></i> example@gmail.com</p><br>
+                    <p><i class="fa fa-phone" style="font-size: 26px;color: black;"></i> -345 578 59 45 416</p><br>
+                    <p><i class="fa fa-home" style="font-size: 26px;color: black;"></i> Enno | PO ox 23456 Little
+                        Lonsdale
+                        St
+                        <br>New York<br>Victonia 8011 USA
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <span class="text-white ">@ eNno Theme. All rights Reserved<br>Designed by
+                        bootstrapMode</span><p class="text-white ">Yuvasri</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="nav justify-content-end" style="margin-right: 40px;">
+                        <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                        <a class="nav-link"><i class="fa fa-twitter"></i>
+                            <a class="nav-link"><i class="fa fa-linkedin"></i>
+                                <a class="nav-link"><i class="fa fa-pinterest"></i>
+                                    <a class="nav-link"><i class="fa fa-google-plus"></i>
+                                        <a class="nav-link" href="#"><i class="fa fa-chevron-up"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
